@@ -4,8 +4,8 @@ document.querySelectorAll('article').forEach((e) => {
     })    
 })
 
-let lightTheme = "styles/light.css";
-let darkTheme = "styles/dark.css";
+let lightTheme = "css/light.css";
+let darkTheme = "css/dark.css";
 
 function changeTheme() {
   let darkMode = document.getElementById("dark-mode");
