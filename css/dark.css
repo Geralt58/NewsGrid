@@ -317,7 +317,7 @@ p {
 
 /* Footer */
 #main-footer {
-    background: var(--dark-color);
+    background: var(--light-color);
     color: #fff;
 }
 
