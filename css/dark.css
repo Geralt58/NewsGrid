@@ -23,7 +23,7 @@
 body {
     font-family: 'lato', sans-serif;
     line-height: 1.5;
-    background: var(--light-color);
+    background: var(--dark-color);
 }
 
 body::-webkit-scrollbar {
