@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" href="css/light.css" id="theme" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>NewsGrid | Latest News</title>
 </head>
@@ -24,6 +25,12 @@
             <ul>
                 <li><a class="current" href="index.html">Home</a></li>
                 <li><a href="about.html">about</a></li>
+                
+      
+                   <button onclick="changeTheme()" id="dark-mode">
+                      Dark Mode 🌙
+                   </button>
+                 
             </ul>
         </div>
     </nav>
@@ -55,7 +62,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi labore cum velit placeat sequi tempora error saepe qui quidem possimus.</p>
                     </div>
                 </article>
-                <article class="card bg-dark">
+                <article class="card">
                     <div class="category category-sports">Sports</div>
                     <h3>
                         Lorem ipsum dolor sit amet.
